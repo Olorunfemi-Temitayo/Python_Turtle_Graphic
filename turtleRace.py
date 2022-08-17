@@ -1,45 +1,45 @@
 from turtle import Turtle
 
-laura = Turtle()
+Gee = Turtle()
 
-laura.color('red')
-laura.shape('turtle')
-laura.penup()
-laura.goto(-160, 100)
-laura.pendown()
+Gee.color('red')
+Gee.shape('turtle')
+Gee.penup()
+Gee.goto(-160, 100)
+Gee.pendown()
 
-rik = Turtle()
+Tee = Turtle()
 
-rik.color('blue')
-rik.shape('turtle')
-rik.penup()
-rik.goto(-160, 70)
-rik.pendown()
+Tee.color('blue')
+Tee.shape('turtle')
+Tee.penup()
+Tee.goto(-160, 70)
+Tee.pendown()
 
-lauren = Turtle()
+Pee = Turtle()
 
-lauren.color('green')
-lauren.shape('turtle')
-lauren.penup()
-lauren.goto(-160, 40)
-lauren.pendown()
+Pee.color('green')
+Pee.shape('turtle')
+Pee.penup()
+Pee.goto(-160, 40)
+Pee.pendown()
 
-carrie = Turtle()
+Bee = Turtle()
 
-carrie.color('purple')
-carrie.shape('turtle')
-carrie.penup()
-carrie.goto(-160, 10)
-carrie.pendown()
+Bee.color('purple')
+Bee.shape('turtle')
+Bee.penup()
+Bee.goto(-160, 10)
+Bee.pendown()
 
 
 from random import randint
 
 for movement in range(100):
-    laura.forward(randint(1, 5))
-    rik.forward(randint(1, 5))
-    lauren.forward(randint(1, 5))
-    carrie.forward(randint(1, 5))
+    Gee.forward(randint(1, 5))
+    Tee.forward(randint(1, 5))
+    Pee.forward(randint(1, 5))
+    Bee.forward(randint(1, 5))
 input("Press Enter to Close")
 
 
